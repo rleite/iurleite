@@ -1,0 +1,15 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Roboto, serif;
+    background-color: #f7f9f9;
+}
+
+.container {
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+}
