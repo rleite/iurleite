@@ -6,10 +6,20 @@ body {
 body {
     font-family: Roboto, serif;
     background-color: #f7f9f9;
+    color: #555;
+    font-size: 18px;
 }
 
 .container {
     padding: 20px;
-    margin: 30px auto;
+    margin: 30px auto 0 auto;
     max-width: 600px;
+}
+
+.header {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 4px;
 }
