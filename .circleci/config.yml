@@ -1,0 +1,16 @@
+jobs:
+  build:
+    docker:
+      - image: 'cimg/python:3.6'
+    steps:
+      - checkout
+      - aws-s3/copy:
+          aws-access-key-id: AWS_ACCESS_KEY_ID_IURLEITE_COM
+          aws-region: AWS_REGION_IURLEITE_COM
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY_IURLEITE_COM
+          arguments: '--recursive'
+          from: site
+          to: 's3://iurleite.com'
+orbs:
+  aws-s3: circleci/aws-s3@1.0.15
+version: 2.1
