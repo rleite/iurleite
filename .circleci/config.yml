@@ -19,7 +19,7 @@ workflows:
   prod:
     jobs:
       - prod-deploy:
-        filters:
+          filters:
             branches:
               only:
                 - prod
