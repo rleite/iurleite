@@ -13,7 +13,7 @@ jobs:
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY_IURLEITE_COM
           arguments: '--recursive'
           from: site
-          to: 's3://iurleite.com'
+          to: 's3://www.iurleite.com'
 workflows:
   version: 2
   prod:
