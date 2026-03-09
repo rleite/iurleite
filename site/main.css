@@ -37,3 +37,10 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
 }
+
+.footer {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
