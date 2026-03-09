@@ -2,41 +2,115 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rui Leite</title>
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="https://s.gravatar.com/avatar/39d18d9da2544e46b85f383a40108b25">
   <link rel="icon" type="image/png" href="https://s.gravatar.com/avatar/39d18d9da2544e46b85f383a40108b25?s=16" sizes="16x16">
   <link rel="icon" type="image/png" href="https://s.gravatar.com/avatar/39d18d9da2544e46b85f383a40108b25?s=32" sizes="32x32">
   <link rel="icon" type="image/png" href="https://s.gravatar.com/avatar/39d18d9da2544e46b85f383a40108b25?s=48" sizes="48x48">
 </head>
 <body>
+  <div class="page-glow"></div>
   <div class="container">
-    <header class="header">
-      <img class="profile-image" src="https://s.gravatar.com/avatar/39d18d9da2544e46b85f383a40108b25?s=180" />
-      <h1>Rui Leite</h1>
-    </header>
     <main>
-      <section>
-        <p>
-          I'm a Portuguese Software Engineer at <a href="https://www.thousandeyes.com/">Thousandeyes</a> in <span>London, UK</span>.
-        </p>
-        <p>
-          I build for the web and love exploring new ways of doing things. I love to work with <a href="https://angular.io/">Angular</a>, <a href="https://nodejs.org/">NodeJS</a> and <a href="https://mongodb.org/">MongoDB</a>.
-        </p>
-        <p>
-          I love to discover new places and cultures. I have been fortunate to use work as my travel excuse and so far I met the megalomaniac arabic ways of <a href="https://wikipedia.org/wiki/Dubai">Dubai, UAE</a> and the very opposite liberal city and tech shelter that is <a href="https://wikipedia.org/wiki/San_Francisco">San Francisco, CA, USA</a>.
-        </p>
+      <section id="hero" class="panel hero">
+        <div class="hero-media">
+          <img class="profile-image" src="https://s.gravatar.com/avatar/39d18d9da2544e46b85f383a40108b25?s=240" alt="Portrait of Rui Leite" />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Software Engineering Technical Leader</p>
+          <h1>Rui Leite</h1>
+          <p class="lead">
+            Software Engineering Technical Leader at Cisco ThousandEyes, based in Vila Nova de Gaia, Porto, Portugal.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#experience">View Experience</a>
+            <a class="button button-secondary" href="#links">Contact</a>
+          </div>
+        </div>
       </section>
-      <section>
-        <header>
-          <h3>Social</h3>
-        </header>
-        <p>
-          <a href="https://github.com/rleite" alt="rleite">GitHub</a>, <a href="https://twitter.com/iur_leite" alt="@iur_leite">Twitter</a>, <a href="https://www.linkedin.com/in/iurleite" alt="iurleite">LinkedIn</a>.
-        </p>
-      </section>
+
+      <div class="content-grid">
+        <div class="content-main">
+          <section id="about" class="panel">
+            <h2>About</h2>
+            <p>
+              I am a software engineering technical leader focused on building resilient, product-driven web platforms
+              that are intuitive and useful for the people who rely on them.
+            </p>
+            <p>
+              I enjoy helping teams turn ambiguity into execution by setting technical direction, simplifying
+              decisions, and creating momentum around shared goals.
+            </p>
+            <p>
+              Outside work, I am married and a father of two, and family life with our two dogs keeps me focused on
+              consistency, priorities, and long-term thinking.
+            </p>
+            <p>
+              I also explore home IoT projects, experimenting with practical automation and monitoring at home.
+            </p>
+            <p>
+              I play padel regularly, enjoy football whenever I can, and proudly support FC Porto. Sport gives me a
+              healthy competitive outlet and reinforces the consistency and focus I bring to my work.
+            </p>
+          </section>
+
+          <section id="experience" class="panel">
+            <h2>Experience</h2>
+            <ol class="timeline">
+              <li class="timeline-item">
+                <p class="role">Software Engineering Technical Leader</p>
+                <p class="meta">Cisco ThousandEyes • Jun 2024 - Present • Vila Nova de Gaia, Porto, Portugal</p>
+                <p>
+                  Leading technical direction and delivery of core web product initiatives.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <p class="role">Staff Software Engineer</p>
+                <p class="meta">StreamYard • Mar 2022 - May 2024 • Porto, Portugal</p>
+                <p>Delivered high-impact product capabilities across frontend and backend systems.</p>
+              </li>
+              <li class="timeline-item">
+                <p class="role">ThousandEyes</p>
+                <p class="meta">Apr 2016 - Mar 2022 • London, UK</p>
+                <p>
+                  Progression through Software Engineer, Software Engineer II, Senior Software Engineer, Lead Software
+                  Engineer, with focus on customer-facing platform reliability and performance.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <p class="role">Earlier Roles</p>
+                <p class="meta">San Francisco, Porto, Dubai, Coimbra • 2012 - 2016</p>
+                <p>Worked across product and contract roles at Blip.pt, Sports Stars Media Dubai, and HumanSpot.</p>
+              </li>
+            </ol>
+          </section>
+        </div>
+
+        <aside id="links" class="panel links-panel">
+          <div class="skills-block">
+            <h3>Skills</h3>
+            <ul class="skills-list">
+              <li><strong>Frontend:</strong> VueJS, React</li>
+              <li><strong>Backend:</strong> Nodejs, Kotlin</li>
+              <li><strong>Experiments:</strong> Rust, WASM</li>
+              <li><strong>Cloud:</strong> AWS, GCP</li>
+            </ul>
+          </div>
+          <h3 class="links-subtitle">Links</h3>
+          <ul class="link-list">
+            <li><a href="https://github.com/rleite" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/iurleite" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://iurleite.com/" target="_blank" rel="noreferrer">iurleite.com</a></li>
+          </ul>
+        </aside>
+      </div>
     </main>
+
     <footer class="footer">
       <p>© 2026 Rui Leite. All rights reserved.</p>
     </footer>
